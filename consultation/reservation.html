@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>상담 예약</title>
+    <!-- CSS 연결 (필요시) -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- 예약 폼 영역 -->
+    <div id="consultation-form" class="consultation-form">
+        <h2>온라인 상담 예약</h2>
+        <form action="/submit-consultation" method="post">
+            <label for="name">이름</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">연락처</label>
+            <input type="tel" id="phone" name="phone" placeholder="010-1234-5678" required>
+
+            <label for="email">이메일</label>
+            <input type="email" id="email" name="email">
+
+            <label for="date">상담 희망 날짜</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">상담 희망 시간</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="message">상담 내용</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">예약 신청하기</button>
+        </form>
+    </div>
+</body>
+</html>
