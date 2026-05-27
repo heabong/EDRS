@@ -307,35 +307,41 @@
         </div>
     </section>
 
-    <div class="quick-menu">
-        <div class="quick-title">Quick<br>Menu</div>
-        <ul class="quick-list">
-            <li>
-                <a href="#contact">
-                    <img src="images/icon_online_counseling.png" alt="온라인상담" class="icon-img">
-                    <span class="text">온라인상담</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://pf.kakao.com" target="_blank">
-                    <img src="images/icon_kakso_talk.png" alt="카톡상담" class="icon-img">
-                    <span class="text">카톡상담</span>
-                </a>
-            </li>
-            <li>
-                <a href="tel:02-1234-5678">
-                    <img src="images/icon_phone.png" alt="전화상담" class="icon-img">
-                    <span class="text">전화상담 아이콘</span>
-                </a>
-            </li>
-        </ul>
-    </div>
+ <!-- 퀵메뉴 영역 -->
+<div class="quick-menu">
+    <div class="quick-title">Quick<br>Menu</div>
+    <ul class="quick-list">
+        <!-- 온라인 상담: 예약 접수 페이지로 이동 -->
+        <li>
+            <a href="/consultation/reservation">
+                <img src="images/icon_online_counseling.png" alt="온라인상담" class="icon-img">
+                <span class="text">온라인상담예약</span>
+            </a>
+        </li>
 
-    <a href="#contact" class="bottom-fix-btn">
-        <img src="images/icon_oall.png" alt="상담">
-        1:1 상담
-    </a>
+        <!-- 카톡 상담: 카카오톡 오픈채팅 링크 -->
+        <li>
+            <a href="https://open.kakao.com/o/sznuzxhi" target="_blank">
+                <img src="images/icon_kakso_talk.png" alt="카톡상담" class="icon-img">
+                <span class="text">실시간 카톡상담</span>
+            </a>
+        </li>
 
+        <!-- 전화 상담: 모바일에서 바로 전화 연결 -->
+        <li>
+            <a href="tel:1800-5549">
+                <img src="images/icon_phone.png" alt="전화상담" class="icon-img">
+                <span class="text">실시간 전화상담</span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<!-- 하단 고정 버튼: 1:1 상담 -->
+<a href="/consultation/reservation" class="bottom-fix-btn">
+    <img src="images/icon_oall.png" alt="상담">
+    1:1 상담
+</a>
     <footer>
         <p>&copy; 2026 새한신용정보. All rights reserved.</p>
         <p>새한신용정보 일산지사. CS 031-994-7299</p>
